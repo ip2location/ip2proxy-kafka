@@ -40,6 +40,7 @@ transforms.insertip2proxy.ip2proxy.input=
 ## Schema
 
 |Name|Schema|
+|---|---|
 |ip2proxy_is_proxy|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|
 |ip2proxy_proxy_type|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|
 |ip2proxy_country_code|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|
