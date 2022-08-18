@@ -10,7 +10,9 @@ This tranform allows user to query an IP address if it was being used as VPN ano
 ## Installation
 
 Download the latest IP2Proxy Java jar file ip2proxy-java-x.y.z.jar from https://search.maven.org/artifact/com.ip2proxy/ip2proxy-java
+
 Download the latest IP2Proxy Kafka jar file ip2proxy-kafka-x.y.z.jar from https://search.maven.org/artifact/com.ip2proxy/ip2proxy-kafka
+
 Copy both jar files into whichever plugin folder your Kafka installation is using.
 
 Download the IP2Proxy BIN database file into the folder of your choice.
