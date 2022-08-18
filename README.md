@@ -17,8 +17,6 @@ Copy both jar files into whichever plugin folder your Kafka installation is usin
 
 Download the IP2Proxy BIN database file into the folder of your choice.
 
-##
-
 ## Configure your connector properties
 
 This transformation is used to lookup data from a IP2Proxy BIN database file and appending the data into an existing struct.
