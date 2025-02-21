@@ -1,5 +1,5 @@
 /*
- * Copyright © 2022 IP2Location.com (support@ip2location.com)
+ * Copyright © 2025 IP2Location.com (support@ip2location.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -106,6 +106,7 @@ public abstract class InsertIP2Proxy<R extends ConnectRecord<R>> implements Tran
                 updatedValue.put(prefix + "last_seen", all.Last_Seen);
                 updatedValue.put(prefix + "threat", all.Threat);
                 updatedValue.put(prefix + "provider", all.Provider);
+                updatedValue.put(prefix + "fraud_score", all.Fraud_Score);
             } else {
                 updatedValue.put(prefix + "error", "Error reading BIN file.");
             }
@@ -152,6 +153,7 @@ public abstract class InsertIP2Proxy<R extends ConnectRecord<R>> implements Tran
                 updatedValue.put(prefix + "last_seen", all.Last_Seen);
                 updatedValue.put(prefix + "threat", all.Threat);
                 updatedValue.put(prefix + "provider", all.Provider);
+                updatedValue.put(prefix + "fraud_score", all.Fraud_Score);
             } else {
                 updatedValue.put(prefix + "error", "Error reading BIN file.");
             }
@@ -195,6 +197,7 @@ public abstract class InsertIP2Proxy<R extends ConnectRecord<R>> implements Tran
         builder.field(prefix + "last_seen", Schema.STRING_SCHEMA);
         builder.field(prefix + "threat", Schema.STRING_SCHEMA);
         builder.field(prefix + "provider", Schema.STRING_SCHEMA);
+        builder.field(prefix + "fraud_score", Schema.STRING_SCHEMA);
         builder.field(prefix + "error", Schema.STRING_SCHEMA);
 
         return builder.build();
