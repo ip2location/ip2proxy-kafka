@@ -4,7 +4,7 @@
 
 |Name|Schema|Description|
 |---|---|---|
-|ip2proxy_is_proxy|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|Determine whether if an IP address was a proxy or not. Returns 0 is not proxy, 1 if proxy, and 2 if it's data center IP.|
+|ip2proxy_is_proxy|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|Determine whether if an IP address was a proxy or not. Returns 0 is not proxy, 1 if proxy, and 2 if it's data center IP or AI crawler.|
 |ip2proxy_proxy_type|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|Type of proxy.|
 |ip2proxy_country_code|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|Two-character country code based on ISO 3166.|
 |ip2proxy_country_name|[String](https://kafka.apache.org/0102/javadoc/org/apache/kafka/connect/data/Schema.Type.html#STRING)|Country name based on ISO 3166.|

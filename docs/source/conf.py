@@ -4,11 +4,11 @@
 # -- Project information
 
 project = 'IP2Proxy Kafka'
-copyright = '2025, IP2Location'
+copyright = '2026, IP2Location'
 author = 'IP2Location'
 
-release = '0.1.0'
-version = '0.1.0'
+release = '1.2.0'
+version = '1.2.0'
 
 # -- General configuration
 
@@ -57,4 +57,4 @@ html_favicon = 'images/favicon.ico'
 
 html_title = "IP2Proxy Kafka"
 
-# html_baseurl = "https://ip2proxy-java.readthedocs.io/en/latest/"
+# html_baseurl = "https://ip2proxy-kafka.readthedocs.io/en/latest/"
